@@ -12,16 +12,16 @@ export const Botao = ({tituloBotao}) => {
 
 const styles = StyleSheet.create({
     botao:{
-        backgroundColor: '#00AAEE',
+        width: '70%',
+        paddingVertical: 10,
+        alignItems: 'center',
         borderTopLeftRadius: 10,
         borderBottomLeftRadius: 10,
         borderBottomRightRadius: 10,
-        paddingVertical: 10,
-        width: '70%',
-        alignItems: <center></center>
+        backgroundColor: '#00AAEE'
     },
     textoBotao: {
-        color: '#FFFFFF',
-        fontSize: 16
+        fontSize: 16,
+        color: '#FFFFFF'
     }
 })

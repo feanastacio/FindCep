@@ -1,6 +1,4 @@
 import { TextInput, Text, View, StyleSheet } from "react-native"
-import { BorderlessButton } from "react-native-gesture-handler"
-
 
 export const Input = () => {
     return(
@@ -20,10 +18,10 @@ const styles = StyleSheet.create({
         width: '70%'
     },
     Input: {
-        borderBottonWidth: 1,
-        borderBottomColor:'#939393',
-        color: '#939393',
         padding: 5,
-        outline:'none'
+        color: '#939393',
+        borderBottonWidth: 1,
+        outlineStyle: 'none',
+        borderColor:'#939393',
     }
 })
