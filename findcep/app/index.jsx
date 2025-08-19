@@ -1,10 +1,10 @@
 // import { ImageBackground } from "expo-image";
-import { Text, View, StyleSheet,ImageBackground, Image, ScrollView } from "react-native";
-import { Input } from '../components/input/input';
+import axios from "axios";
+import { useState } from "react";
+import { Image, ImageBackground, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Botao } from '../components/botao/botao';
 import { Card } from '../components/card/card';
-import { useState } from "react";
-import axios from "axios";
+import { Input } from '../components/input/input';
 
 export default function Index() {
 
